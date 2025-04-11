@@ -1,0 +1,14 @@
+.site-footer {
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .site-footer p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+  }
+  
