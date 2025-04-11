@@ -1,0 +1,57 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+.interests-section {
+  padding: 4rem 1rem;
+  background-color: #f9fbfe;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.interests-heading {
+  font-size: 2.25rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.interests-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  color: #555;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.interest-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-6px);
+}
+
+.interest-card i {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin-bottom: 1rem;
+}
+
+.interest-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.interest-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
