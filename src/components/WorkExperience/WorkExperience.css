@@ -1,0 +1,76 @@
+.work-experience {
+    background: #f8f9fa;
+    padding: 4rem 1rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .experience-container {
+    max-width: 850px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+    padding: 3rem 2rem;
+  }
+  
+  .experience-heading {
+    text-align: center;
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
+    color: #222;
+    position: relative;
+  }
+  
+  .experience-heading::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #4a90e2;
+    margin: 0.75rem auto 0;
+    border-radius: 2px;
+  }
+  
+  .experience-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-left: 4px solid #4a90e2;
+    background: #f0f6ff;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .experience-item:hover {
+    background: #e5efff;
+  }
+  
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .experience-header h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience-header span {
+    color: #4a90e2;
+  }
+  
+  .experience-date {
+    font-size: 0.95rem;
+    color: #666;
+    font-style: italic;
+  }
+  
+  .experience-description {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-top: 0.5rem;
+  }
+  
