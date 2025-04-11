@@ -1,0 +1,79 @@
+.education-section {
+    padding: 4rem 1rem;
+    background: #f4f7fa;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .education-heading {
+    text-align: center;
+    font-size: 2.25rem;
+    margin-bottom: 3rem;
+    color: #222;
+    position: relative;
+  }
+  
+  .education-heading::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #4a90e2;
+    margin: 0.75rem auto 0;
+    border-radius: 2px;
+  }
+  
+  .timeline {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    padding-left: 2rem;
+    border-left: 3px solid #4a90e2;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2.5rem;
+    padding-left: 1rem;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    left: -11px;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    background-color: #4a90e2;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #e2ecf9;
+  }
+  
+  .timeline-content {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .timeline-content:hover {
+    transform: translateY(-4px);
+  }
+  
+  .timeline-content h3 {
+    margin: 0;
+    color: #4a90e2;
+    font-size: 1.2rem;
+  }
+  
+  .timeline-content p {
+    margin: 0.25rem 0 0.5rem;
+    font-weight: 500;
+  }
+  
+  .timeline-content span {
+    font-size: 0.95rem;
+    color: #666;
+  }
+  
